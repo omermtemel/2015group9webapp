@@ -1,26 +1,101 @@
-<div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
-</div>
-<span ng-click="demir(thing)" ng-repeat="thing in awesomeThings">
-{{ thing }}
-</span>
-{{ user.name }}
-<div class="row marketing">
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-  </p>
+<div ng-include='"views/navbar.html"'></div>
 
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-8" center-text>
+      <img class="img-responsive img-rounded" src="images/poster.png" alt="900x350">
+    </div>
 
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
+    <!-- /.col-md-8 -->
+    <div class="col-md-4">
+      <h1><p style="font-size:60px">UNIVERSAL ACCESS</h1>
+      <style>
+        h2 {
+          color:#BAF8CB;
+          font-family:verdana;
+          font-size:30px;
+        }
+      </style>
+      <h2><b><em>Road To Raising Awareness</em></b></h2>
+      <p>Buraya sitenin amacina dair bir aciklama yapsak guzel olur gibim</p>
+      <a class="btn btn-danger btn-lg" ui-sref="notify">Notify Violation!</a>
+    </div>
+    <!-- /.col-md-4 -->
+  </div>
 </div>
+
+
+<div class="section-colored">
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <h2>Violation Report 1</h2>
+        <ul>
+          <li>blablaballabla</li>
+          <a class="btn btn-default" ui-sref="viewVio">More Info</a>
+        </ul>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <img class="img-responsive" src="http://placehold.it/700x450/ffffff/cccccc">
+      </div>
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+</div>
+<!-- /.section-colored -->
+
+<div class="section">
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <img class="img-responsive" src="http://placehold.it/700x450">
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <h2>Violation Report 2</h2>
+        <ul>
+          <li>blablablablab</li>
+          <a class="btn btn-default" ui-sref="viewVio">More Info</a>
+        </ul>
+      </div>
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+</div>
+
+<div class="section-colored">
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <h2>Violation Report 3</h2>
+        <ul>
+          <li>balbalbabla</li>
+          <a class="btn btn-default" ui-sref="viewVio">More Info</a>
+        </ul>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <img class="img-responsive" src="http://placehold.it/700x450/ffffff/cccccc">
+      </div>
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+</div>
+
+
+<!-- /.section -->
+
+<!-- /.container -->
